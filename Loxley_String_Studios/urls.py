@@ -16,9 +16,15 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from home import views
+from home import views as homeviews
+from music import views as musicviews
+from teach import views as teachviews
+from gigs import views as gigviews
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path("", views.home, name="home")
+    path("", homeviews.home, name="home"),
+    path("music", musicviews.music),
+    path("teach", teachviews.teach),
+    path("gigs", gigviews.gigs)
 ]
