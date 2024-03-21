@@ -20,11 +20,13 @@ from home import views as homeviews
 from music import views as musicviews
 from teach import views as teachviews
 from gigs import views as gigviews
+from weddings import views as weddingviews
 
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("", homeviews.home, name="home"),
     path("music", musicviews.music),
     path("teach", teachviews.teach),
-    path("gigs", gigviews.gigs)
+    path("gigs", gigviews.gigs),
+    path("weddings", weddingviews.weddings),
 ]
