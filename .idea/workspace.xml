@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e9f6b63-d3d7-40bc-849b-fac41b72ce0d" name="Changes" comment="Made some apps">
-      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/music/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/weddings/weddings.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Loxley_String_Studios.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Loxley_String_Studios.iml" afterDir="false" />
+    <list default="true" id="1e9f6b63-d3d7-40bc-849b-fac41b72ce0d" name="Changes" comment="Most updated changes.">
+      <change afterPath="$PROJECT_DIR$/templates/about/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/contact/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Loxley_String_Studios/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Loxley_String_Studios/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Loxley_String_Studios/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Loxley_String_Studios/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +68,10 @@
       <recent name="$PROJECT_DIR$/templates" />
       <recent name="$PROJECT_DIR$" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates" />
+      <recent name="$PROJECT_DIR$/home/templates" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Loxley_String_Studios" type="Python.DjangoServer" factoryName="Django server">
@@ -120,6 +126,8 @@
       <workItem from="1710445847211" duration="11000" />
       <workItem from="1710446015453" duration="3330000" />
       <workItem from="1710534088372" duration="71000" />
+      <workItem from="1711050621787" duration="3264000" />
+      <workItem from="1711655356318" duration="3317000" />
     </task>
     <task id="LOCAL-00001" summary="Made Template folder in home.">
       <option name="closed" value="true" />
@@ -137,7 +145,23 @@
       <option name="project" value="LOCAL" />
       <updated>1710013724598</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Most updated changes.">
+      <option name="closed" value="true" />
+      <created>1711050714230</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1711050714230</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Most updated changes.">
+      <option name="closed" value="true" />
+      <created>1711050798180</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1711050798180</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +170,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Made Template folder in home." />
     <MESSAGE value="Made some apps" />
-    <option name="LAST_COMMIT_MESSAGE" value="Made some apps" />
+    <MESSAGE value="Most updated changes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Most updated changes." />
   </component>
 </project>
