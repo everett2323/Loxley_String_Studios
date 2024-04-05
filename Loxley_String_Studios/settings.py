@@ -38,13 +38,6 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "UserManagement",
     "django_extensions",
-    "home",
-    "gigs",
-    "contact",
-    "about",
-    "music",
-    "teach",
-    "weddings"
 ]
 
 MIDDLEWARE = [
@@ -62,7 +55,7 @@ ROOT_URLCONF = "Loxley_String_Studios.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [BASE_DIR / 'templates']
+        "DIRS": [BASE_DIR / 'UserManagement/templates']
         ,
         "APP_DIRS": True,
         "OPTIONS": {

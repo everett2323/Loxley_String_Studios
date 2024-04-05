@@ -4,15 +4,59 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e9f6b63-d3d7-40bc-849b-fac41b72ce0d" name="Changes" comment="Most updated changes.">
-      <change afterPath="$PROJECT_DIR$/templates/about/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/contact/contact.html" afterDir="false" />
+    <list default="true" id="1e9f6b63-d3d7-40bc-849b-fac41b72ce0d" name="Changes" comment="still working">
+      <change afterPath="$PROJECT_DIR$/UserManagement/templates/music/logout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserManagement/templates/music/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Loxley_String_Studios.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Loxley_String_Studios.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Loxley_String_Studios/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Loxley_String_Studios/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Loxley_String_Studios/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Loxley_String_Studios/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserManagement/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/UserManagement/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserManagement/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/UserManagement/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gigs/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gigs/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gigs/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gigs/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gigs/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gigs/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gigs/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/teach/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/teach/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/teach/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/teach/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/teach/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/teach/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/teach/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/about/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/UserManagement/templates/about/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/UserManagement/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/contact/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/UserManagement/templates/contact/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/gigs/gigs.html" beforeDir="false" afterPath="$PROJECT_DIR$/UserManagement/templates/gigs/gigs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/UserManagement/templates/home/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/music/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/UserManagement/templates/music/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/music/music.html" beforeDir="false" afterPath="$PROJECT_DIR$/UserManagement/templates/music/music.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/teach/teach.html" beforeDir="false" afterPath="$PROJECT_DIR$/UserManagement/templates/teach/teach.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/weddings/weddings.html" beforeDir="false" afterPath="$PROJECT_DIR$/UserManagement/templates/weddings/weddings.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weddings/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weddings/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weddings/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weddings/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weddings/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weddings/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weddings/views.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +113,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/UserManagement" />
       <recent name="$PROJECT_DIR$/templates" />
       <recent name="$PROJECT_DIR$/home/templates" />
     </key>
@@ -127,7 +172,9 @@
       <workItem from="1710446015453" duration="3330000" />
       <workItem from="1710534088372" duration="71000" />
       <workItem from="1711050621787" duration="3264000" />
-      <workItem from="1711655356318" duration="3317000" />
+      <workItem from="1711655356318" duration="3604000" />
+      <workItem from="1712001026634" duration="3964000" />
+      <workItem from="1712346493375" duration="1543000" />
     </task>
     <task id="LOCAL-00001" summary="Made Template folder in home.">
       <option name="closed" value="true" />
@@ -161,7 +208,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711050798180</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="still working">
+      <option name="closed" value="true" />
+      <created>1711659059720</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1711659059720</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +226,7 @@
     <MESSAGE value="Made Template folder in home." />
     <MESSAGE value="Made some apps" />
     <MESSAGE value="Most updated changes." />
-    <option name="LAST_COMMIT_MESSAGE" value="Most updated changes." />
+    <MESSAGE value="still working" />
+    <option name="LAST_COMMIT_MESSAGE" value="still working" />
   </component>
 </project>
