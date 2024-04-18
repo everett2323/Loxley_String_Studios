@@ -3,9 +3,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    {% block title %}
     <title>Loxley String Studios - About</title>
+    {% endblock %}
 </head>
 <body>
-
+{% block content %}
+    <h1>About</h1>
+    <img src="_MG_0181_1000.jpg" alt="Cello chris photo1" width="200" height="300"> <img src="DSC_1250_1000.jpg" alt="Cello chris photo2"> 
+    <p>Chris Loxley is a music teacher, performer, and father located in the Westchester town of Pelham, just north of 
+        NYC. He has spent the last 2 decades back in NYC after earning a Master's Degree in Strings Performance from CU 
+        Boulder, to accompany his existing Music Education & Performance Major from Ithaca College in undergrad.</p>
+    <br>
+    <p>Chris keeps up with performances with indie bands such as 'Shrines' (<a href="https://www.thisisshrines.com/">https://www.thisisshrines.com/</a>), his wedding duo Penguin 
+        Music (Weddings tab), but also can be found in his home studio educating school students of Colonial, Hutch, 
+        Siwanoy, PMS and PMHS.</p>
+{% endblock %}
 </body>
 </html>

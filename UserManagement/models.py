@@ -17,11 +17,12 @@ class CustomUser(AbstractUser):
     instrument = models.CharField(max_length=20, choices=InstrumentType.choices, default="Pleas choose your instrument")
     experience = models.IntegerField(default=0)
 
- class CustomUserAdmin(UserAdmin):
-     form = CustomUserChangeForm #TODO: ERROR
-     addForm = CustomUserCreationForm #TODO: ERROR
-     model = CustomUser
-     fieldsets = UserAdmin.fieldsets + ((None, {"fields":"age,instrument,experience"}),)
-     add_fieldsets = UserAdmin.add_fieldsets((None, {"fields":"age,instrument,experience"}),)
+
+class CustomUserAdmin(UserAdmin):
+    form = CustomUserChangeForm #TODO: ERROR
+    addForm = CustomUserCreationForm #TODO: ERROR
+    model = CustomUser
+    fieldsets = UserAdmin.fieldsets + ((None, {"fields":"age,instrument,experience"}),)
+    add_fieldsets = UserAdmin.add_fieldsets((None, {"fields":"age,instrument,experience"}),)
 
 

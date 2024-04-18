@@ -3,9 +3,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    {% block title %}
     <title>Loxley String Studios - Contact Me</title>
+    {% endblock %}
 </head>
 <body>
-
+{% block content %}
+    <form>
+        <label for="firstname">First Name</label>
+        <input type="text" id="firstname">
+        <br><br>
+        <label for="password">Password</label>
+        <input type="password" id="password">
+    </form>
+{% endblock %}
 </body>
 </html>
