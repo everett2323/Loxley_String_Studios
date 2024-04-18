@@ -11,6 +11,7 @@ class CustomUser(AbstractUser):
         cello = "Cello", "cello"
         violin = "Violin", "violin"
         bass = "Bass", "bass"
+        viola = "Viola", "viola"
 
     age = models.IntegerField(default=0)
     instrument = models.CharField(max_length=20, choices=InstrumentType.choices, default="Pleas choose your instrument")
