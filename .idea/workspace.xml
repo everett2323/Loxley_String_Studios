@@ -4,59 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e9f6b63-d3d7-40bc-849b-fac41b72ce0d" name="Changes" comment="still working">
-      <change afterPath="$PROJECT_DIR$/UserManagement/templates/music/logout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserManagement/templates/music/signup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Loxley_String_Studios.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Loxley_String_Studios.iml" afterDir="false" />
+    <list default="true" id="1e9f6b63-d3d7-40bc-849b-fac41b72ce0d" name="Changes" comment="Changes made">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Loxley_String_Studios/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Loxley_String_Studios/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Loxley_String_Studios/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Loxley_String_Studios/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserManagement/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/UserManagement/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserManagement/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/UserManagement/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserManagement/templates/about/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/UserManagement/templates/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserManagement/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/UserManagement/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserManagement/templates/contact/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/UserManagement/templates/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserManagement/templates/gigs/gigs.html" beforeDir="false" afterPath="$PROJECT_DIR$/UserManagement/templates/gigs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserManagement/templates/home/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/UserManagement/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserManagement/templates/music/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/UserManagement/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserManagement/templates/music/logout.html" beforeDir="false" afterPath="$PROJECT_DIR$/UserManagement/templates/logout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserManagement/templates/music/music.html" beforeDir="false" afterPath="$PROJECT_DIR$/UserManagement/templates/music.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserManagement/templates/music/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/UserManagement/templates/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserManagement/templates/teach/teach.html" beforeDir="false" afterPath="$PROJECT_DIR$/UserManagement/templates/teach.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserManagement/templates/weddings/weddings.html" beforeDir="false" afterPath="$PROJECT_DIR$/UserManagement/templates/weddings.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserManagement/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/UserManagement/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gigs/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gigs/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gigs/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gigs/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gigs/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gigs/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gigs/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/teach/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/teach/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/teach/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/teach/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/teach/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/teach/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/teach/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/about/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/UserManagement/templates/about/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/UserManagement/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/contact/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/UserManagement/templates/contact/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/gigs/gigs.html" beforeDir="false" afterPath="$PROJECT_DIR$/UserManagement/templates/gigs/gigs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/UserManagement/templates/home/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/music/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/UserManagement/templates/music/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/music/music.html" beforeDir="false" afterPath="$PROJECT_DIR$/UserManagement/templates/music/music.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/teach/teach.html" beforeDir="false" afterPath="$PROJECT_DIR$/UserManagement/templates/teach/teach.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/weddings/weddings.html" beforeDir="false" afterPath="$PROJECT_DIR$/UserManagement/templates/weddings/weddings.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weddings/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weddings/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weddings/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weddings/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weddings/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weddings/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weddings/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +41,10 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/UserManagement/models.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/UserManagement/views.py" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -113,6 +83,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/UserManagement/templates" />
       <recent name="$PROJECT_DIR$/UserManagement" />
       <recent name="$PROJECT_DIR$/templates" />
       <recent name="$PROJECT_DIR$/home/templates" />
@@ -174,7 +145,12 @@
       <workItem from="1711050621787" duration="3264000" />
       <workItem from="1711655356318" duration="3604000" />
       <workItem from="1712001026634" duration="3964000" />
-      <workItem from="1712346493375" duration="1543000" />
+      <workItem from="1712346493375" duration="1923000" />
+      <workItem from="1712419829110" duration="791000" />
+      <workItem from="1712425196367" duration="1106000" />
+      <workItem from="1712951221896" duration="2565000" />
+      <workItem from="1713130370492" duration="196000" />
+      <workItem from="1713469787926" duration="3975000" />
     </task>
     <task id="LOCAL-00001" summary="Made Template folder in home.">
       <option name="closed" value="true" />
@@ -216,7 +192,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711659059720</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Changes made">
+      <option name="closed" value="true" />
+      <created>1712350357233</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1712350357233</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,6 +211,18 @@
     <MESSAGE value="Made some apps" />
     <MESSAGE value="Most updated changes." />
     <MESSAGE value="still working" />
-    <option name="LAST_COMMIT_MESSAGE" value="still working" />
+    <MESSAGE value="Changes made" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes made" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/UserManagement/models.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
