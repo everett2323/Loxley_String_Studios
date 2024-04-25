@@ -4,14 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e9f6b63-d3d7-40bc-849b-fac41b72ce0d" name="Changes" comment="Made modules with Ty">
-      <change afterPath="$PROJECT_DIR$/StuffDadWants/notes.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserManagement/templates/DSC_1250_1000.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserManagement/templates/_MG_0181_1000.jpg" afterDir="false" />
+    <list default="true" id="1e9f6b63-d3d7-40bc-849b-fac41b72ce0d" name="Changes" comment="Spiced up about.html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserManagement/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/UserManagement/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserManagement/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/UserManagement/templates/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserManagement/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/UserManagement/templates/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Loxley_String_Studios/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Loxley_String_Studios/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Loxley_String_Studios/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Loxley_String_Studios/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserManagement/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_application/templates/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserManagement/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserManagement/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserManagement/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_application/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserManagement/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserManagement/templates/DSC_1250_1000.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/DSC_1250_1000.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserManagement/templates/_MG_0181_1000.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/_MG_0181_1000.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserManagement/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/main_application/templates/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserManagement/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/main_application/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserManagement/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/main_application/templates/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserManagement/templates/gigs.html" beforeDir="false" afterPath="$PROJECT_DIR$/main_application/templates/videos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserManagement/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/main_application/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserManagement/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserManagement/templates/logout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserManagement/templates/music.html" beforeDir="false" afterPath="$PROJECT_DIR$/main_application/templates/music.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserManagement/templates/signup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserManagement/templates/teach.html" beforeDir="false" afterPath="$PROJECT_DIR$/main_application/templates/teach.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserManagement/templates/weddings.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserManagement/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserManagement/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_application/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +41,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -63,6 +80,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "run.code.analysis.last.selected.profile": "aDefault",
+    "settings.editor.selected.configurable": "terminal",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -73,10 +91,11 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/main_application" />
+      <recent name="$PROJECT_DIR$/main_application/migrations" />
+      <recent name="$PROJECT_DIR$/main_application/templates" />
+      <recent name="$PROJECT_DIR$/media" />
       <recent name="$PROJECT_DIR$/UserManagement/templates" />
-      <recent name="$PROJECT_DIR$/UserManagement" />
-      <recent name="$PROJECT_DIR$/templates" />
-      <recent name="$PROJECT_DIR$/home/templates" />
     </key>
   </component>
   <component name="RunManager">
@@ -141,7 +160,9 @@
       <workItem from="1712951221896" duration="2565000" />
       <workItem from="1713130370492" duration="196000" />
       <workItem from="1713469787926" duration="4014000" />
-      <workItem from="1713480575364" duration="2183000" />
+      <workItem from="1713480575364" duration="2421000" />
+      <workItem from="1714074890398" duration="1261000" />
+      <workItem from="1714076286202" duration="2071000" />
     </task>
     <task id="LOCAL-00001" summary="Made Template folder in home.">
       <option name="closed" value="true" />
@@ -207,7 +228,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713480655380</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Spiced up about.html">
+      <option name="closed" value="true" />
+      <created>1713483822069</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1713483822069</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,7 +249,8 @@
     <MESSAGE value="still working" />
     <MESSAGE value="Changes made" />
     <MESSAGE value="Made modules with Ty" />
-    <option name="LAST_COMMIT_MESSAGE" value="Made modules with Ty" />
+    <MESSAGE value="Spiced up about.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spiced up about.html" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -12,7 +12,7 @@ def contact(request):
 
 
 def videos(request):
-    return render(request, 'gigs.html')
+    return render(request, 'videos.html')
 
 
 def home(request):
@@ -26,18 +26,3 @@ def music(request):
 def teach(request):
     return render(request, 'teach.html')
 
-
-def login(request):
-    return render(request, 'login.html')
-
-
-def logout(request):
-    return render(request, 'logout.html')
-
-
-def signup(request):
-    return render(request, 'signup.html')
-
-
-def weddings(request):
-    return render(request, 'weddings.html')
