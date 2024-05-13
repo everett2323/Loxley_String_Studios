@@ -1,25 +1,27 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     {% block title %}
-        <meta charset="UTF-8">
-        <title>Base</title>
-    {% endblock %}
+    <title>Base</title>
+    {% endblock title %}
+    <link rel="icon" type="image/x-icon" href="{% static "favicons/favicon.png" %}">
+
 </head>
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 <body>
 <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="/home">Home</a>
+        <a class="navbar-brand" href="/">Home</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item"><a class="nav-link" href="/home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="/music">Music</a></li>
                 <li class="nav-item"><a class="nav-link" href="/teach">Teach</a></li>
                 <li class="nav-item"><a class="nav-link" href="http://penguinweddingmusicny.com/">Weddings</a></li>
@@ -32,7 +34,7 @@
 
 
     </nav>
-   
+
 </header>
 {% block content %} {% endblock %}
 <!-- Bootstrap JS, Popper.js, and jQuery at the end of the body -->
