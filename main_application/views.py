@@ -1,13 +1,18 @@
+from django.contrib.auth.decorators import user_passes_test, login_required
 from django.shortcuts import render, redirect
 from .forms import ContactForm
 from .models import Contact
 
 
 # Create your views here.
+@login_required
+@user_passes_test(lambda u: u.is_superuser)
+def admin_login(request):
+    contacts = Contact.objects.all()
+    return render(request, "admin_contacts.html", {"contacts": contacts})
 
 def about(request):
     return render(request, 'about.html')
-
 
 def contact(request):
     if request.method == 'POST':

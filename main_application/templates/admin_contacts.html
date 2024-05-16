@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    <title>Admin - Loxley String Studios</title>
+{% endblock %}
+
+{% block content %}
+    <h1>Administratior Contact List</h1>
+    {% if contacts %}
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Subject</th>
+                <th>Message</th>
+            </tr>
+        </thead>
+    <tbody>
+    {% for contact in contacts %}
+    <tr>
+        <td>{{ contact.name }}</td>
+        <td>{{ contact.email }}</td>
+        <td>{{ contact.subject }}</td>
+        <td>{{ contact.message }}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+    </table>
+    {% else %}
+    <p>No contact forms present at this moment.</p>
+    {% endif %}
+{% endblock %}
+
+
+{% block extra-js %} {% endblock %}

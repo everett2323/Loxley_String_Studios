@@ -20,9 +20,11 @@ from django.urls import path, include
 
 import main_application
 from Loxley_String_Studios import settings
+from main_application import views
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path("", include("main_application.urls"))
+    path("", include("main_application.urls")),
+    path("admin_login", views.admin_login, name="admin_login")
 
 ]+ static(settings.STATIC_URL, document_root=settings.STATIC_URL)
