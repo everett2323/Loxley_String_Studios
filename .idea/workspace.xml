@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e9f6b63-d3d7-40bc-849b-fac41b72ce0d" name="Changes" comment="made main_application">
-      <change afterPath="$PROJECT_DIR$/main_application/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/favicons/favicon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Loxley_String_Studios.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Loxley_String_Studios.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Loxley_String_Studios/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Loxley_String_Studios/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Loxley_String_Studios/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Loxley_String_Studios/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main_application/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/main_application/templates/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main_application/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/main_application/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main_application/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/main_application/templates/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/DSC_1250_1000.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/media/DSC_1250_1000.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/_MG_0181_1000.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/media/_MG_0181_1000.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_application/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_application/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,6 +144,7 @@
       <workItem from="1714074890398" duration="1261000" />
       <workItem from="1714076286202" duration="2330000" />
       <workItem from="1714679917514" duration="2967000" />
+      <workItem from="1715888779000" duration="286000" />
     </task>
     <task id="LOCAL-00001" summary="Made Template folder in home.">
       <option name="closed" value="true" />
