@@ -5,7 +5,18 @@
 {% endblock %}
 
 {% block content %}
-    <h1>Administratior Contact List</h1>
+    <h1>Administrator Contact List</h1>
+    <form method="post">
+        {% csrf_token %}
+        <div class="input-group">
+            <label for="searchbar">Search:</label>
+            <input type="text" name="search_query" id="searchbar">
+            <div class="input-group-append">
+                <button type="submit" class="btn btn-primary">Search</button>
+            </div>
+        </div>
+    </form>
+
     {% if contacts %}
     <table>
         <thead>
@@ -15,20 +26,20 @@
                 <th>Subject</th>
                 <th>Message</th>
             </tr>
-        </thead>
-    <tbody>
-    {% for contact in contacts %}
-    <tr>
-        <td>{{ contact.name }}</td>
-        <td>{{ contact.email }}</td>
-        <td>{{ contact.subject }}</td>
-        <td>{{ contact.message }}</td>
-    </tr>
-    {% endfor %}
-    </tbody>
-    </table>
+            </thead>
+            <tbody>
+            {% for contact in contacts %}
+                <tr>
+                    <td>{{ contact.name }}</td>
+                    <td>{{ contact.email }}</td>
+                    <td>{{ contact.subject }}</td>
+                    <td>{{ contact.message }}</td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
     {% else %}
-    <p>No contact forms present at this moment.</p>
+        <p>No contact forms present at this moment.</p>
     {% endif %}
 {% endblock %}
 
