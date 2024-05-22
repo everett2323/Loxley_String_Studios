@@ -4,20 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e9f6b63-d3d7-40bc-849b-fac41b72ce0d" name="Changes" comment="made Contact form">
-      <change afterPath="$PROJECT_DIR$/main_application/management/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main_application/management/commands/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main_application/management/commands/create_contacts.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main_application/templates/admin_contacts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Loxley_String_Studios.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Loxley_String_Studios.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Loxley_String_Studios/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Loxley_String_Studios/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main_application/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_application/views.py" afterDir="false" />
-    </list>
-    <list id="2ccce6cb-aeea-48c8-8db7-7a731ab9ab36" name="Changes by tyrellbaker" comment="">
-      <change beforePath="$PROJECT_DIR$/main_application/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_application/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="1e9f6b63-d3d7-40bc-849b-fac41b72ce0d" name="Changes" comment="made Contact admin page" />
+    <list id="2ccce6cb-aeea-48c8-8db7-7a731ab9ab36" name="Changes by tyrellbaker" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,15 +28,6 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/UserManagement/models.py" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/UserManagement/views.py" root0="FORCE_HIGHLIGHTING" />
-  </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/main_application/views.py">
-      <ranges>
-        <range start1="0" end1="0" start2="0" end2="1" changelist="2ccce6cb-aeea-48c8-8db7-7a731ab9ab36" />
-        <range start1="6" end1="6" start2="7" end2="12" changelist="1e9f6b63-d3d7-40bc-849b-fac41b72ce0d" />
-        <range start1="10" end1="11" start2="16" end2="16" changelist="1e9f6b63-d3d7-40bc-849b-fac41b72ce0d" />
-      </ranges>
-    </file>
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -162,7 +141,7 @@
       <workItem from="1714074890398" duration="1261000" />
       <workItem from="1714076286202" duration="2330000" />
       <workItem from="1714679917514" duration="2967000" />
-      <workItem from="1715888779000" duration="4468000" />
+      <workItem from="1715888779000" duration="4603000" />
     </task>
     <task id="LOCAL-00001" summary="Made Template folder in home.">
       <option name="closed" value="true" />
@@ -252,7 +231,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715889191417</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="made Contact admin page">
+      <option name="closed" value="true" />
+      <created>1715893444165</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1715893444165</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,7 +255,8 @@
     <MESSAGE value="Spiced up about.html" />
     <MESSAGE value="made main_application" />
     <MESSAGE value="made Contact form" />
-    <option name="LAST_COMMIT_MESSAGE" value="made Contact form" />
+    <MESSAGE value="made Contact admin page" />
+    <option name="LAST_COMMIT_MESSAGE" value="made Contact admin page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
