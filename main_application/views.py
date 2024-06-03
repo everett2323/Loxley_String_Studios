@@ -1,7 +1,8 @@
+from django.contrib.auth import authenticate, login
 from django.contrib.auth.decorators import user_passes_test, login_required
 from django.shortcuts import render, redirect
 
-from .forms import ContactForm
+from .forms import ContactForm, LoginForm
 from .models import Contact
 
 
@@ -9,6 +10,7 @@ from .models import Contact
 @login_required
 @user_passes_test(lambda u: u.is_superuser)
 def admin_login(request):
+    #TODO: Change name to better representation name.
     if request.method == 'POST':
         search_query = request.POST.get('search_query')
         contacts = Contact.objects.filter(name__icontains=search_query)
@@ -16,6 +18,19 @@ def admin_login(request):
         contacts = Contact.objects.none()
     return render(request, "admin_contacts.html", {"contacts": contacts})
 
+def login_view(request):
+    if request.method == 'POST':
+        form = LoginForm(request.POST)
+        if form.is_valid():
+            username = form.cleaned_data.get('username')
+            password = form.cleaned_data.get('password')
+            user = authenticate(request, username=username, password=password)
+            if user is not None:
+                login(request, user)
+                return redirect('admin_login')
+    else:
+        form = LoginForm()
+        return render(request, 'login.html',{'form':form})
 def about(request):
     return render(request, 'about.html')
 
