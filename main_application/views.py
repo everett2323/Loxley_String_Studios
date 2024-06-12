@@ -10,13 +10,14 @@ from .models import Contact
 @login_required
 @user_passes_test(lambda u: u.is_superuser)
 def admin_login(request):
-    #TODO: Change name to better representation name.
+    # TODO: Change name to better representation name.
     if request.method == 'POST':
         search_query = request.POST.get('search_query')
         contacts = Contact.objects.filter(name__icontains=search_query)
     else:
         contacts = Contact.objects.none()
-    return render(request, "admin_contacts.html", {"contacts": contacts})
+
+
 
 def login_view(request):
     if request.method == 'POST':
@@ -27,12 +28,15 @@ def login_view(request):
             user = authenticate(request, username=username, password=password)
             if user is not None:
                 login(request, user)
-                return redirect('admin_login')
+                return render(request, "admin_contacts.html")
     else:
         form = LoginForm()
-        return render(request, 'login.html',{'form':form})
+        return render(request, 'login.html', {'form': form})
+
+
 def about(request):
     return render(request, 'about.html')
+
 
 def contact(request):
     if request.method == 'POST':
@@ -44,7 +48,7 @@ def contact(request):
             return redirect('contact')
     else:
         form = ContactForm()
-    return render(request, 'contact.html',{'form': form})
+    return render(request, 'contact.html', {'form': form})
 
 
 def videos(request):
