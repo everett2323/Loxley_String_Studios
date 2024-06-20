@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e9f6b63-d3d7-40bc-849b-fac41b72ce0d" name="Changes" comment="made Contact admin page" />
+    <list default="true" id="1e9f6b63-d3d7-40bc-849b-fac41b72ce0d" name="Changes" comment="Made requirements.txt">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <list id="2ccce6cb-aeea-48c8-8db7-7a731ab9ab36" name="Changes by tyrellbaker" comment="Changes by tyrellbaker" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +148,7 @@
       <workItem from="1717346736304" duration="1509000" />
       <workItem from="1717444607450" duration="3326000" />
       <workItem from="1718225179571" duration="3168000" />
-      <workItem from="1718922855614" duration="293000" />
+      <workItem from="1718922855614" duration="787000" />
     </task>
     <task id="LOCAL-00001" summary="Made Template folder in home.">
       <option name="closed" value="true" />
@@ -300,7 +302,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718922946998</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Made requirements.txt">
+      <option name="closed" value="true" />
+      <created>1718923652871</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1718923652871</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,7 +328,8 @@
     <MESSAGE value="made Contact form" />
     <MESSAGE value="Changes by tyrellbaker" />
     <MESSAGE value="made Contact admin page" />
-    <option name="LAST_COMMIT_MESSAGE" value="made Contact admin page" />
+    <MESSAGE value="Made requirements.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made requirements.txt" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
