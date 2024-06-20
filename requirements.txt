@@ -1,0 +1,11 @@
+asgiref==3.7.2
+beautifulsoup4==4.12.3
+Django==5.0.2
+django-bootstrap4==24.3
+django-extensions==3.2.3
+django-mysql==4.13.0
+Faker==25.2.0
+python-dateutil==2.9.0.post0
+six==1.16.0
+soupsieve==2.5
+sqlparse==0.4.4
